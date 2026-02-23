@@ -25,7 +25,7 @@ def run_flask():
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'android', 'desktop': False})
 
-TOKEN = "8209964976:AAElJqHb4sEFRFTq_4Ek2I-R4XsYlVAcOyM"
+TOKEN = "5817724211:AAG23f6eV5mxRa4q6zuK5SDrElVamgt1C-Y"
 HEADERS = {
     "Client-Service": "Appx", "Auth-Key": "appxapi", "source": "website", "User-ID": "82093",
 }
